@@ -13,7 +13,7 @@ import android.util.Log;
  * 如果用的不是单例的HsyLog，只查看通过HsyLog打出来的日志需要结合实例HsyLog时的TAG 就像这样，adb logcat -s TAG
  *
  * @author huangsy
- * @date 创建时间：2015年8月6日 上午11:48:22
+ * 创建时间：2015年8月6日 上午11:48:22
  * @version 1.0
  */
 

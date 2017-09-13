@@ -10,13 +10,11 @@ import java.io.IOException;
 
 /**
  * SharedPreferences操作工具包<br>
- * <p/>
  * <b>说明</b> 本工具包只能在单进程项目下使用，多进程共享请使用如下demo的两行代码重写: <br>
  * Context otherContext = c.createPackageContext( "com.android.contacts",
  * Context.CONTEXT_IGNORE_SECURITY); <br>
  * SharedPreferences sp = otherContext.getSharedPreferences( "my_file",
  * Context.MODE_MULTI_PROCESS);<br>
- * <p/>
  * <b>创建时间</b> 2014-7-27
  */
 public class SharedPreferencesUtils {
@@ -66,7 +64,6 @@ public class SharedPreferencesUtils {
 
     /**
      * 存储double，其实是存String类型
-     * {@link #(Context, String)}
      *
      * @param k
      * @param v
